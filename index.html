@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数字記憶ゲーム</title>
+  <link rel="stylesheet" href="number-memory.css">
+</head>
+<body>
+  <div id="message1" class="block"><h1 >数字記憶ゲーム</h1></div>
+  <div id="startImg" class="block">
+    <img src="./img/number.jpg" id="picture1" alt=""　width="200" height="200">
+  </div>
+  <div id="countdown"></div>
+  <div id="outputnum"></div>
+  <div id="startButton">
+    <input class="btn" type="button" value="スタート" onclick="makeRandomNum();">
+  </div>
+  <div id="message2"></div>
+  <div id="inputField" class="block"></div>
+  <div id="checkButton"></div>
+  <h1 id="answer"></h1>
+  <div id="nextGame"></div>
+  <div id=againButton></div>
+  <script src="number-memory.js"></script>
+</body>
+</html>

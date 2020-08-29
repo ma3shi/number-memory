@@ -1,0 +1,34 @@
+/*　全体　*/
+body {
+  background-color: lemonchiffon;
+  width: 500px;
+  margin-right: auto;
+  margin-left : auto;
+}
+h1{
+  color: blue;
+}
+h2{
+  color: darkorange;
+}
+.block{
+  display: block;
+  margin-bottom: 30px;
+}
+/*　ボタン　*/
+.btn {
+  font-size: 20px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  text-align:center;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+}
+/* 入力欄　*/
+#inputnum{
+  font-size: 20px;
+  line-height: 40px;
+}
